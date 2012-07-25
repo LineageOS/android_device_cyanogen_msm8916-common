@@ -81,6 +81,9 @@ on post-fs-data
     mkdir /data/misc/location/quipc 0770 gps system
     mkdir /data/misc/location/gsiff 0770 gps gps
 
+    # Raise SDCC idle timeout value to 10 seconds
+    write /sys/devices/platform/msm_sdcc.3/idle_timeout 10
+
     # Create directory from IMS services
     mkdir /data/shared 0755
     chown system system /data/shared
