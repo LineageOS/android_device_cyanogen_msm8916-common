@@ -27,7 +27,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.enable.sglscale=1 \
     debug.hwui.use_buffer_age=false \
-    debug.composition.type=c2d \
     debug.mdpcomp.idletime=600 \
     debug.sf.disable_backpressure=1 \
     debug.sf.latch_unsignaled=1 \
