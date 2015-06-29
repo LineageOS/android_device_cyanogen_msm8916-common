@@ -582,3 +582,10 @@ service setup_fs /system/bin/setup_fs /dev/block/platform/7824900.sdhci/by-name/
     user root
     group root
     oneshot
+
+service migrate_tasks /system/bin/sh /system/etc/init.qcom.migrate.sh
+    class late_start
+    user root
+    group root
+    oneshot
+    disabled
