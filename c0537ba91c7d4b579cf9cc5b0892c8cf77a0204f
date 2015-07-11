@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f013ff3_bee5f53a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-11T00:42:30Z",
+      "side": 1,
+      "message": "argument, not target.",
+      "range": {
+        "startLine": 7,
+        "startChar": 28,
+        "endLine": 7,
+        "endChar": 34
+      },
+      "revId": "c0537ba91c7d4b579cf9cc5b0892c8cf77a0204f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f013ff3_9ee2392f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-11T00:42:30Z",
+      "side": 1,
+      "message": "I guess you meant BOARD_MKBOOTIMG_ARGS same as with BOARD_RAMDISK_OFFSET + BOARD_KERNEL_TAGS_OFFSET\n\nEither way, a better sentence would be:\nBOARD_MKBOOTIMG_ARGS is not set by devices using this,\nBOARD_RAMDISK_OFFSET and BOARD_KERNEL_TAGS_OFFSET is uses instead.",
+      "revId": "c0537ba91c7d4b579cf9cc5b0892c8cf77a0204f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
