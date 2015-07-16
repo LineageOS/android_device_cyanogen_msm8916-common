@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_daaafa17",
+        "filename": "rootdir/etc/init.qcom.usb.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-16T16:44:31Z",
+      "side": 1,
+      "message": "Set this on init?\n\nConsistent with 8939, see http://review.cyanogenmod.org/#/c/102192/2/rootdir/etc/init.qcom.usb.rc (might as well just pick that change)",
+      "revId": "e35845f2f179442c9f87df64eb8eac854bc530b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
