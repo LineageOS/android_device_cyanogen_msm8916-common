@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "ff0f0b1f_3a18d67f",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-16T18:59:32Z",
+      "side": 1,
+      "message": "noop is usually set by the kernel as the default.",
+      "range": {
+        "startLine": 3,
+        "startChar": 21,
+        "endLine": 3,
+        "endChar": 28
+      },
+      "revId": "663f48a453c268030f39bc8e6417a23c57a02245",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ff0f0b1f_7a1e4e71",
         "filename": "rootdir/etc/init.qcom.rc",
         "patchSetId": 5
