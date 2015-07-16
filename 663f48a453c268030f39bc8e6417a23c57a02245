@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_7a1e4e71",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 560,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-16T18:57:02Z",
+      "side": 1,
+      "message": "Don\u0027t want to move this to power.rc too?",
+      "range": {
+        "startLine": 560,
+        "startChar": 22,
+        "endLine": 560,
+        "endChar": 28
+      },
+      "revId": "663f48a453c268030f39bc8e6417a23c57a02245",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
