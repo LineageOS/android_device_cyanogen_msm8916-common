@@ -152,7 +152,6 @@ PRODUCT_PACKAGES += \
     init.qcom.fm.sh
 
 PRODUCT_PACKAGES += \
-    fstab.qcom \
     init.qcom.rc \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
