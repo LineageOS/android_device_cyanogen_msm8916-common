@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5f201791_233d48bb",
+        "filename": "cmhw/src/org/cyanogenmod/hardware/DisplayModeControl.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2015-08-22T05:52:02Z",
+      "side": 1,
+      "message": "I can go either way on this- since it runs in system server, we probably shouldn\u0027t crash the phone if you called the method without checking isSupported first.. but you should call isSupported first :)\n\nI think it\u0027s best to just return false/NULL where appropriate. Will fix.",
+      "parentUuid": "5f201791_e8d96e22",
+      "revId": "fb930f81d684f2fab1ca76f610a9676d8f8bd7f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5f201791_08cdca5c",
         "filename": "cmhw/src/org/cyanogenmod/hardware/DisplayModeControl.java",
         "patchSetId": 1
