@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f201791_e8d96e22",
+        "filename": "cmhw/src/org/cyanogenmod/hardware/DisplayModeControl.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-08-22T04:56:05Z",
+      "side": 1,
+      "message": "Is anything in an upper layer handling this exception?",
+      "revId": "fb930f81d684f2fab1ca76f610a9676d8f8bd7f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f201791_08cdca5c",
+        "filename": "cmhw/src/org/cyanogenmod/hardware/DisplayModeControl.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-08-22T04:56:05Z",
+      "side": 1,
+      "message": "Got some trailing whitespace here.",
+      "revId": "fb930f81d684f2fab1ca76f610a9676d8f8bd7f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
