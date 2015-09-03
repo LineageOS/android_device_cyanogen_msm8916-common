@@ -3,6 +3,7 @@
 /sys/devices/virtual/graphics/fb0/color_enhance u:object_r:display_sysfs:s0
 /sys/devices/virtual/graphics/fb0/rgb           u:object_r:display_sysfs:s0
 /sys/devices/virtual/graphics/fb0/sre           u:object_r:display_sysfs:s0
+/sys/devices/virtual/graphics/fb0/dynamic_fps   u:object_r:display_sysfs:s0
 
 /persist/.genmac                                u:object_r:wifi_data_file:s0
 /persist/.bt_nv.bin                             u:object_r:bluetooth_data_file:s0
