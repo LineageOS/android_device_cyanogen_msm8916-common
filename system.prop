@@ -8,6 +8,7 @@ audio.offload.pcm.16bit.enable=false
 audio.offload.pcm.24bit.enable=true
 use.voice.path.for.pcm.voip=true
 vidc.enc.narrow.searchrange=1
+audio.offload.disable=1
 
 # Media
 mm.enable.qcom_parser=3179041
