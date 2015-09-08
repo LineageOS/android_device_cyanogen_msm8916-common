@@ -1,4 +1,7 @@
 on enable-low-power
+    # RPS mask
+    write /sys/class/net/rmnet0/queues/rx-0/rps_cpus 2
+
     # HMP scheduler load tracking settings
     write /proc/sys/kernel/sched_window_stats_policy 3
     write /proc/sys/kernel/sched_ravg_hist_size 3
