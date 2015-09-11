@@ -16,6 +16,24 @@
       "revId": "28e887552632b4efa25393c5e32db7bab3c973e2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f1a1f67_1939ab40",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2015-09-11T05:15:48Z",
+      "side": 1,
+      "message": "Yeah, init supports rm.\n\ncommit 203bad597fb4e46ddda051add28400070b5c3a5a\nAuthor: Ken Sumrall \u003cksumrall@android.com\u003e\nDate:   Tue Jan 18 17:37:41 2011 -0800\n\n    Add the commands rm and rmdir to init.",
+      "parentUuid": "1f1a1f67_13186c7f",
+      "revId": "28e887552632b4efa25393c5e32db7bab3c973e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
