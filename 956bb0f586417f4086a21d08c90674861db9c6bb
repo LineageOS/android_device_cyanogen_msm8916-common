@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_c8f90e4e",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-11-05T03:19:20Z",
+      "side": 1,
+      "message": "Make this a separate commit.",
+      "revId": "956bb0f586417f4086a21d08c90674861db9c6bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
