@@ -98,11 +98,11 @@ PRODUCT_PACKAGES += \
     make_ext4fs
 
 # FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    FMRecord \
-    libqcomfm_jni \
-    qcom.fmradio
+#PRODUCT_PACKAGES += \
+#    FM2 \
+#    FMRecord \
+#    libqcomfm_jni \
+#    qcom.fmradio
 
 # IO Scheduler
 PRODUCT_PROPERTY_OVERRIDES += \
