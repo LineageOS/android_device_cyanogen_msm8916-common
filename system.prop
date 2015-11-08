@@ -62,6 +62,7 @@ ro.vendor.extension_library=libqti-perfd-client.so
 persist.radio.apm_sim_not_pwdn=1
 rild.libargs=-d /dev/smd0
 ro.use_data_netmgrd=true
+persist.data.qmi.adb_logmask=0
 
 # Time
 persist.timed.enable=true
