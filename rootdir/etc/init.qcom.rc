@@ -526,7 +526,7 @@ service perfd /system/bin/perfd
    group root
    disabled
 
-service thermal-engine /vendor/bin/thermal-engine
+service thermal-engine /system/vendor/bin/thermal-engine
    class main
    user root
    group root
