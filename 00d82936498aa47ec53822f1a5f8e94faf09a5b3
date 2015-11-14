@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_7032d8f3",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 529,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-11-14T01:41:07Z",
+      "side": 1,
+      "message": "vendor is symlinked to /system/vendor, so this is a no-op.",
+      "revId": "00d82936498aa47ec53822f1a5f8e94faf09a5b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
