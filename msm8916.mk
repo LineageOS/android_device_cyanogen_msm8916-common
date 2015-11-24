@@ -103,7 +103,8 @@ PRODUCT_PACKAGES += \
 
 # IO Scheduler
 PRODUCT_PROPERTY_OVERRIDES += \
-    sys.io.scheduler=row
+    sys.io.scheduler=row \
+    ro.min_freq_0=800000
 
 # IRSC
 PRODUCT_COPY_FILES += \
