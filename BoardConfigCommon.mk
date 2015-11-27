@@ -134,6 +134,9 @@ TARGET_POWERHAL_VARIANT := qcom
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
+# Enable QC AV enhancements
+TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
+
 # Recovery
 TARGET_USERIMAGES_USE_EXT4 := true
 
