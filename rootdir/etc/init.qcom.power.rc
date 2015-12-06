@@ -35,6 +35,7 @@ on enable-low-power
     write /sys/devices/system/cpu/cpufreq/interactive/target_loads "1 800000:85 998400:90 1094400:80"
     write /sys/devices/system/cpu/cpufreq/interactive/min_sample_time 50000
     write /sys/devices/system/cpu/cpufreq/interactive/max_freq_hysteresis 50000
+    write /sys/devices/system/cpu/cpufreq/interactive/align_windows 1
 
     # bring all CPUs online
     write /sys/devices/system/cpu/cpu1/online 1
