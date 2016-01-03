@@ -154,6 +154,9 @@ BOARD_SEPOLICY_DIRS += \
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
 
+# Dataservices
+USE_DEVICE_SPECIFIC_DATASERVICES := true
+
 # QC PROPRIETARY
 ifneq ($(QCPATH),)
 BOARD_USES_QCNE := true
