@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fce034c_9d1804d4",
+        "filename": "msm8916.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-01-05T02:49:56Z",
+      "side": 1,
+      "message": "Wait, fail, this is android.software.",
+      "revId": "6e6a1c1f69e31570c8d3c5cf56cce6a3f9d11618",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
