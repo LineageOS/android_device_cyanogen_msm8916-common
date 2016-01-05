@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fce034c_fdf8287d",
+        "filename": "msm8916.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-01-05T02:48:05Z",
+      "side": 1,
+      "message": "Move this up after location and before telephony.gsm.",
+      "revId": "1ed46e94fb7bc4308d66126f51151d75cc9e846e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fce034c_ddef6cae",
+        "filename": "rootdir/etc/init.qcom.usb.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 1020,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-01-05T02:48:05Z",
+      "side": 1,
+      "message": "Not sure if we want a custom ID here, or if we should just use CAF\u0027s.",
+      "revId": "1ed46e94fb7bc4308d66126f51151d75cc9e846e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
