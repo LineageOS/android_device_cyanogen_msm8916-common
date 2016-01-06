@@ -473,6 +473,12 @@ on property:ro.data.large_tcp_window_size=true
     # Adjust socket buffer to enlarge TCP receive window for high bandwidth (e.g. DO-RevB)
     write /proc/sys/net/ipv4/tcp_adv_win_scale  2
 
+# ATTENTION: you should not rely on this to set the rild.libpath property, you
+# should add it into your system.prop . If the property is only setted up here,
+# you'll be facing a possible race condition, rild might want to start before
+# you have the property, and you'll end up without a running rild.
+# On a particular device, this race condition is triggered 3% of the time.
+
 on property:ro.product.cpu.abi=arm64-v8a
     setprop rild.libpath /system/vendor/lib64/libril-qc-qmi-1.so
 
