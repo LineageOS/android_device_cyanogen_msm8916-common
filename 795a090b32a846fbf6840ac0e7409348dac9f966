@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fce034c_ad66eb50",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 495,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-01-07T00:58:12Z",
+      "side": 1,
+      "message": "We probably should just remove this and require devices to set this.",
+      "revId": "795a090b32a846fbf6840ac0e7409348dac9f966",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
