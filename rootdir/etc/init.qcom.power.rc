@@ -5,6 +5,11 @@ on enable-low-power
     # Adaptive LMK
     write /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk 1
 
+    # Per-process reclaim
+    write /sys/module/process_reclaim/parameters/enable_process_reclaim 1
+    write /sys/module/process_reclaim/parameters/pressure_max 70
+    write /sys/module/process_reclaim/parameters/swap_opt_eff 30
+
     write /sys/module/lpm_levels/parameters/sleep_disabled 0
 
     # HMP scheduler load tracking settings
