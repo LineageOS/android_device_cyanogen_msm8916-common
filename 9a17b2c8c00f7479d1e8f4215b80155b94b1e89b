@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_232bc7eb",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-01-30T06:46:20Z",
+      "side": 1,
+      "message": "I don\u0027t see this being set anywhere.",
+      "revId": "9a17b2c8c00f7479d1e8f4215b80155b94b1e89b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
