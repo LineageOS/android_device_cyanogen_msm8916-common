@@ -16,6 +16,24 @@
       "revId": "9a17b2c8c00f7479d1e8f4215b80155b94b1e89b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_23f0a767",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-01-30T07:50:46Z",
+      "side": 1,
+      "message": "It is set for the LA.BR.1.1.3 branch of devices since that kernel branch has per-cpu sched settings. Alternatively, we could revert the per-cpu settings like what was done on LA.BR.1.2.7 devices.\n\nhttps://www.codeaurora.org/cgit/quic/la/device/qcom/common/tree/rootdir/etc/init.qcom.post_boot.sh?h\u003dLA.BR.1.1.3_rb1.44#n521",
+      "parentUuid": "1fcbff3d_232bc7eb",
+      "revId": "9a17b2c8c00f7479d1e8f4215b80155b94b1e89b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
