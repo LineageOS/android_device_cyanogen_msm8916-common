@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_943549fa",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-02-11T00:31:21Z",
+      "side": 1,
+      "message": "Code doesn\u0027t depreciate, it has no value. You meant deprecate.",
+      "revId": "e61d292a672eff8595738b0eae931c21f7e3233e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
