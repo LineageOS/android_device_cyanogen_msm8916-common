@@ -145,7 +145,7 @@
 
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
-    <bool name="skip_restoring_network_selection">true</bool>
+    <bool name="skip_restoring_network_selection">false</bool>
 
     <!-- Make things go fast -->
     <bool name="config_ui_enableFadingMarquee">false</bool>
