@@ -266,6 +266,14 @@ on boot
     mkdir /data/misc/display 0770 system graphics
     mkdir /persist/display 0770 system graphics
 
+    # Vibrator intensity control
+    chown system system /sys/class/timed_output/vibrator/vtg_level
+    chown system system /sys/class/timed_output/vibrator/vtg_max
+    chown system system /sys/class/timed_output/vibrator/vtg_min
+    chmod 0644 /sys/class/timed_output/vibrator/vtg_level
+    chmod 0644 /sys/class/timed_output/vibrator/vtg_max
+    chmod 0644 /sys/class/timed_output/vibrator/vtg_min
+
 on property:init.svc.wpa_supplicant=stopped
     stop dhcpcd
 
