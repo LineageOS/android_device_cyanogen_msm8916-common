@@ -1,0 +1,2 @@
+# CMHardwareService access to VibratorHW
+allow system_server vibeamp_sysfs:file rw_file_perms;
