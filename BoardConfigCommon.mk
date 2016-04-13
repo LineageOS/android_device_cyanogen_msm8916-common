@@ -52,7 +52,6 @@ endif
 TARGET_SYSTEM_PROP := $(VENDOR_PATH)/system.prop
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := MSM8916
 TARGET_NO_BOOTLOADER := true
 
 # Kernel
