@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_7971a1e0",
+        "filename": "rootdir/etc/init.qcom.usb.rc",
+        "patchSetId": 9
+      },
+      "lineNbr": 1020,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-22T16:15:25Z",
+      "side": 1,
+      "message": "${ro.usb.vid}",
+      "range": {
+        "startLine": 1020,
+        "startChar": 51,
+        "endLine": 1020,
+        "endChar": 55
+      },
+      "revId": "ec73fc61c01735fa18d3092ada04b95a6a4d7708",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_f97cb1b6",
+        "filename": "rootdir/etc/init.qcom.usb.rc",
+        "patchSetId": 9
+      },
+      "lineNbr": 1021,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-22T16:15:25Z",
+      "side": 1,
+      "message": "${ro.usb.id.midi} and then define this prop in devices",
+      "range": {
+        "startLine": 1021,
+        "startChar": 52,
+        "endLine": 1021,
+        "endChar": 56
+      },
+      "revId": "ec73fc61c01735fa18d3092ada04b95a6a4d7708",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_19766dda",
+        "filename": "rootdir/etc/init.qcom.usb.rc",
+        "patchSetId": 9
+      },
+      "lineNbr": 1029,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-22T16:15:25Z",
+      "side": 1,
+      "message": "${ro.usb.vid}",
+      "range": {
+        "startLine": 1029,
+        "startChar": 51,
+        "endLine": 1029,
+        "endChar": 55
+      },
+      "revId": "ec73fc61c01735fa18d3092ada04b95a6a4d7708",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_d97f75a9",
+        "filename": "rootdir/etc/init.qcom.usb.rc",
+        "patchSetId": 9
+      },
+      "lineNbr": 1030,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-22T16:15:25Z",
+      "side": 1,
+      "message": "${ro.usb.id.midi_adb} and then define this prop in devices",
+      "range": {
+        "startLine": 1030,
+        "startChar": 52,
+        "endLine": 1030,
+        "endChar": 56
+      },
+      "revId": "ec73fc61c01735fa18d3092ada04b95a6a4d7708",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
