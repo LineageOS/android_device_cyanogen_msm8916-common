@@ -48,6 +48,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_fc8edfce",
+        "filename": "rootdir/etc/init.qcom.usb.rc",
+        "patchSetId": 9
+      },
+      "lineNbr": 1021,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-04-22T23:30:56Z",
+      "side": 1,
+      "message": "Do you know what ids are to be used for this?",
+      "parentUuid": "5faad753_f97cb1b6",
+      "revId": "ec73fc61c01735fa18d3092ada04b95a6a4d7708",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_19766dda",
         "filename": "rootdir/etc/init.qcom.usb.rc",
         "patchSetId": 9
