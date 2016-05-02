@@ -88,6 +88,9 @@ BLUETOOTH_HCI_USE_MCT := true
 BOARD_USES_CYANOGEN_HARDWARE := true
 BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
 
+# CPUsets
+ENABLE_CPUSETS := true
+
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
