@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_fc09e4dc",
+        "filename": "rootdir/etc/init.qcom.usb.rc",
+        "patchSetId": 12
+      },
+      "lineNbr": 1012,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-05-02T15:19:30Z",
+      "side": 1,
+      "message": "We can start by using the default Google/CAF ones, if they are there.",
+      "revId": "25331a7f1316fb5bf1d5b005f3ba7a6b8f594e80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
