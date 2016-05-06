@@ -522,3 +522,9 @@ service wcnss-service /system/bin/wcnss_service
     user system
     group system wifi radio
     oneshot
+
+service migrate-rilprov /system/bin/sh /system/etc/init.qcom.radiomigration.sh
+    class core
+    user root
+    seclabel u:r:qti_init_shell:s0
+    oneshot
