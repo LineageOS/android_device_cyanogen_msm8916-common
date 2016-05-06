@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_6518e71c",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-05-06T21:31:32Z",
+      "side": 1,
+      "message": "We don\u0027t actually need write permissions to any of these nodes other than vtg_level right?",
+      "revId": "e4ac2f1ab47b178b6bbf503f6672ecf487765e45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
