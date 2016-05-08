@@ -119,7 +119,6 @@ AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 TARGET_QCOM_NO_FM_FIRMWARE := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 
 # Keymaster
