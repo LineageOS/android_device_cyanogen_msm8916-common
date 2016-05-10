@@ -15,7 +15,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_CYANOGEN_COMMON),msm8916)
+ifeq ($(TARGET_BOARD_PLATFORM),msm8916)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
