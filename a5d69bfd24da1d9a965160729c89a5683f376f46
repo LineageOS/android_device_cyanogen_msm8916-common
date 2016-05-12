@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_c4542a24",
+        "filename": "init/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 7230
+      },
+      "writtenOn": "2016-05-12T16:47:49Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be msm8916?",
+      "range": {
+        "startLine": 8,
+        "startChar": 24,
+        "endLine": 8,
+        "endChar": 29
+      },
+      "revId": "a5d69bfd24da1d9a965160729c89a5683f376f46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_8434f2fc",
+        "filename": "init/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 7230
+      },
+      "writtenOn": "2016-05-12T16:47:49Z",
+      "side": 1,
+      "message": "Same here",
+      "range": {
+        "startLine": 9,
+        "startChar": 24,
+        "endLine": 9,
+        "endChar": 29
+      },
+      "revId": "a5d69bfd24da1d9a965160729c89a5683f376f46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
