@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_0b7a2a87",
+        "filename": "product/qcom-cne.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-05-25T22:32:14Z",
+      "side": 1,
+      "message": "Missing backslash.",
+      "revId": "403ed6032f25675946eb491de487be51e335acf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_cb73b2b0",
+        "filename": "product/qcom-display.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-05-25T22:32:14Z",
+      "side": 1,
+      "message": "else\nifeq ($(TARGET_BOARD_PLATFORM_VARIANT),msm8939)\n?",
+      "revId": "403ed6032f25675946eb491de487be51e335acf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_6b6abeb3",
+        "filename": "product/qcom-keystore.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-05-25T22:32:14Z",
+      "side": 1,
+      "message": "Some unnecessary newlines?",
+      "revId": "403ed6032f25675946eb491de487be51e335acf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_8b65bae3",
+        "filename": "product/qcom-media.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-05-25T22:32:14Z",
+      "side": 1,
+      "message": "For consistency\u0027s sake, maybe place the package name on a separate line?",
+      "revId": "403ed6032f25675946eb491de487be51e335acf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_2b64c6e3",
+        "filename": "product/qcom-perf.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-05-25T22:32:14Z",
+      "side": 1,
+      "message": "else ifeq ($(TARGET_BOARD_PLATFORM_VARIANT),msm8939)",
+      "revId": "403ed6032f25675946eb491de487be51e335acf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_4b5fc20d",
+        "filename": "rootdir/etc/init.qcom.ssr.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-05-25T22:32:14Z",
+      "side": 1,
+      "message": "Maybe the comments could be formatted a little",
+      "revId": "403ed6032f25675946eb491de487be51e335acf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
