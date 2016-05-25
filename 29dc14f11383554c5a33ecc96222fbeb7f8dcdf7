@@ -16,6 +16,24 @@
       "revId": "29dc14f11383554c5a33ecc96222fbeb7f8dcdf7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_08679027",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-05-25T20:54:47Z",
+      "side": 1,
+      "message": "Yeah, it probably should. Right now it\u0027s in 8939-common, which I basically did a straight merge of.",
+      "parentUuid": "5faad753_28accc32",
+      "revId": "29dc14f11383554c5a33ecc96222fbeb7f8dcdf7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
