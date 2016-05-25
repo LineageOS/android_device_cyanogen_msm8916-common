@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_285a8c4e",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 450,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-05-25T21:11:33Z",
+      "side": 1,
+      "message": "Can be done in a separate commit: eg http://review.cyanogenmod.org/#/c/141691/",
+      "revId": "f1a975f3a121f65b7624e8a83f5706e2bb8bb373",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

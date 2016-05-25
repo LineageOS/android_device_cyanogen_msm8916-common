@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_885b8052",
+        "filename": "msm8916.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-05-25T21:11:33Z",
+      "side": 0,
+      "message": "Can be done in a separate commit: eg http://review.cyanogenmod.org/#/c/138244/",
+      "revId": "4920076b6beefc1de0339cf14491d9225cd56e3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
