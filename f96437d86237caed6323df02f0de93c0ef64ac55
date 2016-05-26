@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_0b322aa8",
+        "filename": "product/qcom-display.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-05-26T03:43:50Z",
+      "side": 1,
+      "message": "This is now missing an endif",
+      "revId": "f96437d86237caed6323df02f0de93c0ef64ac55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_cb2bb22d",
+        "filename": "product/qcom-perf.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-05-26T03:43:50Z",
+      "side": 1,
+      "message": "Also missing an endif now",
+      "revId": "f96437d86237caed6323df02f0de93c0ef64ac55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
