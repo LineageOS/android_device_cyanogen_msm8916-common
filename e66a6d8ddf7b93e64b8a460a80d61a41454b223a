@@ -16,6 +16,24 @@
       "revId": "e66a6d8ddf7b93e64b8a460a80d61a41454b223a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_4b7ca2b4",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 10
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-05-26T13:34:09Z",
+      "side": 1,
+      "message": "I guess so. On a similar note, I just checked the permissions set by default in the kernel, and it happens to be 0644. Maybe we can just get rid of the chmod completely, or just leave it just in case?",
+      "parentUuid": "5faad753_6b771ed6",
+      "revId": "e66a6d8ddf7b93e64b8a460a80d61a41454b223a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
