@@ -319,6 +319,14 @@ service config_bluetooth /system/bin/sh /system/etc/init.qcom.bt.sh "onboot"
     seclabel u:r:bluetooth_loader:s0
     oneshot
 
+service cnd /system/bin/cnd
+    class late_start
+    socket cnd stream 660 root inet
+
+service dpmd /system/bin/dpmd
+    class late_start
+    socket dpmd stream 660 root system
+
 service hciattach /system/bin/sh /system/etc/init.qcom.bt.sh
     class late_start
     user bluetooth
