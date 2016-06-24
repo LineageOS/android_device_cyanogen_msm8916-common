@@ -1,6 +1,4 @@
 on enable-low-power
-    write /proc/sys/kernel/sched_boost 1
-
     # RPS mask
     write /sys/class/net/rmnet0/queues/rx-0/rps_cpus 10
 
@@ -89,6 +87,7 @@ on charger
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor "powersave"
 
 on class_start:late_start
+    write /proc/sys/kernel/sched_boost 1
     trigger enable-low-power
 
 on property:init.svc.recovery=running
