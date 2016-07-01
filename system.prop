@@ -9,6 +9,8 @@ vendor.audio.offload.gapless.enabled=true
 vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
 
+ro.config.vc_call_vol_steps=7
+
 # Bluetooth
 vendor.qcom.bluetooth.soc=pronto
 ro.bluetooth.dun=true
