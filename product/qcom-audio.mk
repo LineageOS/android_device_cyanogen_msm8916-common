@@ -11,7 +11,8 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    av.streaming.offload.enable=true \
+    audio.deep_buffer.media=true \
+    audio.offload.video=true \
     audio.offload.buffer.size.kb=64 \
     audio.offload.gapless.enabled=true \
     audio.offload.min.duration.secs=30 \
