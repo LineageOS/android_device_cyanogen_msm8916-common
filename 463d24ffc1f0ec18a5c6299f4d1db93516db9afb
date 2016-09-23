@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_4af9004b",
+        "filename": "product/qcom-audio.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 10984
+      },
+      "writtenOn": "2016-09-23T09:14:56Z",
+      "side": 0,
+      "message": "av.offload.enable was renamed, not av.streaming.offload.enable",
+      "revId": "463d24ffc1f0ec18a5c6299f4d1db93516db9afb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
