@@ -10,4 +10,13 @@ PRODUCT_COPY_FILES += \
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     qcom.bluetooth.soc=smd \
-    ro.qualcomm.bt.hci_transport=smd
+    ro.qualcomm.bt.hci_transport=smd \
+    ro.bluetooth.dun=true \
+    ro.bluetooth.sap=true \
+    ro.qualcomm.bluetooth.ftp=true \
+    ro.qualcomm.bluetooth.hfp=true \
+    ro.qualcomm.bluetooth.hsp=true \
+    ro.qualcomm.bluetooth.map=true \
+    ro.qualcomm.bluetooth.nap=true \
+    ro.qualcomm.bluetooth.opp=true \
+    ro.qualcomm.bluetooth.pbap=true
