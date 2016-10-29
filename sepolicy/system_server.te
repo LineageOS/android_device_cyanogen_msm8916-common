@@ -1,0 +1,2 @@
+allow system_server mpctl_data_file:dir search;
+allow system_server mpctl_socket:dir search;
