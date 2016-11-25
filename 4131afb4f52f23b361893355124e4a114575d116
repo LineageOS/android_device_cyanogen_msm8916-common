@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_7ed560b9",
+        "filename": "product/qcom-bluetooth.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 11690
+      },
+      "writtenOn": "2016-11-25T09:07:16Z",
+      "side": 1,
+      "message": "Same as 13.",
+      "revId": "4131afb4f52f23b361893355124e4a114575d116",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_ded914f5",
+        "filename": "rootdir/etc/init.qcom.bt.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 11690
+      },
+      "writtenOn": "2016-11-25T09:07:16Z",
+      "side": 1,
+      "message": "https://github.com/CyanogenMod/android_device_cyanogen_msm8916-common/commit/79b05485659b33da05780cd84955d6e8e21a5999",
+      "revId": "4131afb4f52f23b361893355124e4a114575d116",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_bed6d8c2",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 11690
+      },
+      "writtenOn": "2016-11-25T09:07:16Z",
+      "side": 1,
+      "message": "Why this?",
+      "revId": "4131afb4f52f23b361893355124e4a114575d116",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
