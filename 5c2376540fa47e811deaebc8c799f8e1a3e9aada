@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_f83df72c",
+        "filename": "product/qcom-bluetooth.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-11-30T01:35:38Z",
+      "side": 1,
+      "message": "Where did this come from?",
+      "revId": "5c2376540fa47e811deaebc8c799f8e1a3e9aada",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_38480fcb",
+        "filename": "product/qcom-bluetooth.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-11-30T01:35:38Z",
+      "side": 1,
+      "message": "Are you sure about these values? What does \u0027getprop ro.baseband\u0027 print on your devices?",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 28
+      },
+      "revId": "5c2376540fa47e811deaebc8c799f8e1a3e9aada",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_d83abb32",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-11-30T01:35:38Z",
+      "side": 1,
+      "message": "Where did this come from?",
+      "revId": "5c2376540fa47e811deaebc8c799f8e1a3e9aada",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
