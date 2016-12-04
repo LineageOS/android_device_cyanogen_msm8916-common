@@ -1,0 +1,2 @@
+allow perfd mpctl_socket:dir rw_dir_perms;
+allow perfd mpctl_socket:sock_file create_file_perms;
