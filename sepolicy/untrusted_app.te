@@ -1,0 +1,5 @@
+allow untrusted_app block_device:dir { read open };
+allow untrusted_app device:dir { read open };
+allow untrusted_app fuse_device:chr_file getattr;
+allow untrusted_app rootfs:dir { read open };
+allow untrusted_app sysfs:file { read getattr open };
