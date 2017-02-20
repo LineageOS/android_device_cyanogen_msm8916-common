@@ -6,6 +6,10 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     memtrack.msm8916
 
+# Doze
+PRODUCT_PACKAGES += \
+	LADoze
+
 # Permissions
 ifeq ($(TARGET_BOARD_PLATFORM_VARIANT),msm8939)
 PRODUCT_COPY_FILES += \
