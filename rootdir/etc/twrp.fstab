@@ -1,0 +1,11 @@
+/system      ext4           /dev/block/bootdevice/by-name/system
+/data        ext4           /dev/block/bootdevice/by-name/userdata
+/cache       ext4           /dev/block/bootdevice/by-name/cache
+/persist     ext4           /dev/block/bootdevice/by-name/persist
+/boot        emmc           /dev/block/bootdevice/by-name/boot
+/recovery    emmc           /dev/block/bootdevice/by-name/recovery
+/misc        emmc           /dev/block/bootdevice/by-name/misc
+/firmware    vfat           /dev/block/bootdevice/by-name/modem
+
+/external_sd  auto          /dev/block/mmcblk1p1  flags=removable;storage;display="Micro SD"
+/usb-otg      auto          /dev/block/sda1       flags=removable;storage;display="USB OTG"
