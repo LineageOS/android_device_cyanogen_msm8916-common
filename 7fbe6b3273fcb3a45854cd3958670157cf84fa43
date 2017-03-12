@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_1114eef3",
+        "filename": "rootdir/etc/twrp.fstab",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-03-12T08:18:21Z",
+      "side": 1,
+      "message": "Whitespace here and below",
+      "revId": "7fbe6b3273fcb3a45854cd3958670157cf84fa43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
