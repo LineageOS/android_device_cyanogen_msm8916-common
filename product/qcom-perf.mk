@@ -14,11 +14,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 ifeq ($(TARGET_BOARD_PLATFORM_VARIANT),msm8916)
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.min_freq_0=800000
+    ro.min_freq_0=200000
 else
 ifeq ($(TARGET_BOARD_PLATFORM_VARIANT),msm8939)
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.min_freq_0=960000 \
-    ro.min_freq_4=800000
+    ro.min_freq_0=200000 \
+    ro.min_freq_4=200000
 endif
 endif
