@@ -1,0 +1,2 @@
+# Netd
+ +USE_PREBUILT_LIBQSAP_SDK := true
