@@ -19,13 +19,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.mdpcomp.enable=true \
     persist.hwc.ptor.enable=true \
     debug.enable.sglscale=1
-
-ifeq ($(TARGET_BOARD_PLATFORM_VARIANT),msm8916)
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.opengles.version=196608
-else
-ifeq ($(TARGET_BOARD_PLATFORM_VARIANT),msm8939)
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.opengles.version=196609
-endif
-endif
