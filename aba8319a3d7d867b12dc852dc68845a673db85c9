@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_70dd1570",
+        "filename": "rootdir/etc/init.qcom.power_msm8916.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2017-06-21T08:05:32Z",
+      "side": 1,
+      "message": "While you\u0027re at it 0-3 is not a valid setting here.\nSee: https://review.lineageos.org/#/c/172357/",
+      "revId": "aba8319a3d7d867b12dc852dc68845a673db85c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
