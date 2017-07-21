@@ -225,6 +225,7 @@ service rmt_storage /system/vendor/bin/rmt_storage
     group system wakelock
     writepid /dev/cpuset/system-background/tasks
     shutdown critical
+    ioprio rt 0
 
 service hciattach /vendor/bin/hci_qcomm_init -e
     class late_start
