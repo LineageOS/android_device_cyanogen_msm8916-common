@@ -34,12 +34,14 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
-#include "vendor_init.h"
+#include <android-base/properties.h>
 #include "property_service.h"
+#include "vendor_init.h"
 #include "log.h"
-#include "util.h"
 
 #include "init_msm8916.h"
+
+using android::base::GetProperty;
 
 __attribute__ ((weak))
 void init_target_properties()
@@ -55,7 +57,7 @@ static int read_file2(const char *fname, char *data, int max_size)
 
     fd = open(fname, O_RDONLY);
     if (fd < 0) {
-        ERROR("failed to open '%s'\n", fname);
+        LOG(ERROR) <<  "failed to open '" << fname << "'\n";
         return 0;
     }
 
@@ -73,7 +75,7 @@ static void init_alarm_boot_properties()
 {
     char const *alarm_file = "/proc/sys/kernel/boot_reason";
     char buf[64];
-    std::string tmp = property_get("ro.boot.alarmboot");
+    std::string tmp = GetProperty("ro.boot.alarmboot","");
 
     if (read_file2(alarm_file, buf, sizeof(buf))) {
         /*
