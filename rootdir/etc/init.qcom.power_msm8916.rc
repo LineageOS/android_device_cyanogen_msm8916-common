@@ -8,7 +8,7 @@ on init
     write /dev/cpuset/camera-daemon/cpus 0-3
 
 on enable-low-power
-    start qcom-mem
+    start vendor.qcom-mem
 
     # HMP scheduler load tracking settings
     write /proc/sys/kernel/sched_window_stats_policy 3
@@ -69,7 +69,7 @@ on enable-low-power
     setprop vendor.post_boot.parsed 1
 
     rm /data/system/perfd/default_values
-    start perfd
+    start vendor.perfd
 
 on charger
     write /sys/module/lpm_levels/parameters/sleep_disabled 0
