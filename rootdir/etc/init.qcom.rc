@@ -351,6 +351,10 @@ service ppd /system/vendor/bin/mm-pp-daemon
 on property:init.svc.surfaceflinger=stopped
     stop ppd
 
+on property:init.svc.surfaceflinger=restarting
+    stop hwcomposer-2-1
+    start hwcomposer-2-1
+
 on property:init.svc.surfaceflinger=running
     start ppd
 
