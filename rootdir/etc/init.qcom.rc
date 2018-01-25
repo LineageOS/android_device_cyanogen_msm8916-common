@@ -441,11 +441,6 @@ service time_daemon /system/vendor/bin/time_daemon
    group root
    writepid /dev/cpuset/system-background/tasks
 
-service audiod /system/bin/audiod
-   class late_start
-   user system
-   group system
-
 service ppd /system/vendor/bin/mm-pp-daemon
     class late_start
     disabled
