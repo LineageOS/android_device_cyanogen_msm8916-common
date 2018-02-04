@@ -465,6 +465,6 @@ service wcnss-service /system/bin/wcnss_service
     group system wifi radio
     oneshot
 
-service qcom-mem /system/bin/sh /system/etc/init.qcom.mem.sh
+service qcom-mem /system/vendor/bin/init.qcom.mem.sh
     disabled
     oneshot
