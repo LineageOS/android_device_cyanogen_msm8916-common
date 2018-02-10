@@ -48,7 +48,7 @@
 
 using android::base::GetProperty;
 using android::base::ReadFileToString;
-using android::base::SetProperty;
+using android::init::property_set;
 using android::base::Trim;
 
 __attribute__ ((weak))
@@ -83,9 +83,9 @@ static void init_alarm_boot_properties()
          */
         if ((Trim(boot_reason) == "3" || tmp == "true")
                 && Trim(power_off_alarm) == "1")
-            SetProperty("ro.alarm_boot", "true");
+            property_set("ro.alarm_boot", "true");
         else
-            SetProperty("ro.alarm_boot", "false");
+            property_set("ro.alarm_boot", "false");
     }
 }
 
