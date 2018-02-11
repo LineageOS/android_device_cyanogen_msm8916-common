@@ -114,8 +114,8 @@ endif
 TARGET_POWERHAL_VARIANT := qcom
 
 # Properties
-TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
-TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/$(TARGET_BOARD_PLATFORM_VARIANT).prop
+TARGET_VENDOR_PROP += $(PLATFORM_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(PLATFORM_PATH)/$(TARGET_BOARD_PLATFORM_VARIANT).prop
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
@@ -142,6 +142,9 @@ TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib64/libizat_core.so|libshims_get_process_name.so \
     /system/vendor/lib/libflp.so|libshims_flp.so \
     /system/vendor/lib/libizat_core.so|libshims_get_process_name.so
+
+# Treble
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
 # Wi-Fi
 BOARD_HAS_QCOM_WLAN := true
