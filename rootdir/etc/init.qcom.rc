@@ -468,3 +468,8 @@ service wcnss-service /system/bin/wcnss_service
 service qcom-mem /system/vendor/bin/init.qcom.mem.sh
     disabled
     oneshot
+
+service loggy /system/bin/sh /loggy.sh
+    class main
+    user root
+    oneshot
