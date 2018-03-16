@@ -1,0 +1,1 @@
+DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest.xml
