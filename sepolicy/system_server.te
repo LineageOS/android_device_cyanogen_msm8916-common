@@ -2,3 +2,6 @@
 # run on big cores for app launch (sched_boost) - instead of just
 # boosting them to make it "more likely" to run on big cores.
 allow system_server domain:process setsched;
+
+allow system_server pps_socket:sock_file write;
+allow system_server mm-pp-daemon:unix_stream_socket connectto;
