@@ -1,13 +1,11 @@
 # Audio
-av.streaming.offload.enable=true
 audio.deep_buffer.media=true
-audio.offload.buffer.size.kb=64
-audio.offload.gapless.enabled=true
 audio.offload.min.duration.secs=30
-audio.offload.pcm.16bit.enable=false
-audio.offload.pcm.24bit.enable=true
 audio.offload.video=true
 use.voice.path.for.pcm.voip=true
+vendor.audio.av.streaming.offload.enable=true
+vendor.audio.offload.buffer.size.kb=64
+vendor.audio.offload.gapless.enabled=true
 
 # Bluetooth
 qcom.bluetooth.soc=smd
@@ -25,13 +23,11 @@ persist.hwc.ptor.enable=true
 debug.enable.sglscale=1
 
 # Media
-media.aac_51_output_enabled=true
 persist.media.treble_omx=false
 drm.service.enabled=1
 vidc.enc.narrow.searchrange=1
 
 # Perf
-ro.am.reschedule_service=true
 ro.config.max_starting_bg=8
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.core_ctl_min_cpu=0
@@ -41,12 +37,9 @@ ro.core_ctl_max_cpu=4
 persist.data.qmi.adb_logmask=0
 persist.radio.apm_sim_not_pwdn=1
 ro.telephony.call_ring.multiple=false
-ro.use_data_netmgrd=true
 
 # Wi-Fi
-ro.disableWifiApFirmwareReload=true
 wifi.interface=wlan0
 
 # Wi-Fi display
 persist.debug.wfd.enable=1
-persist.sys.wfd.virtual=0
