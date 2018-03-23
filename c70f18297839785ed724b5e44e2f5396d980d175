@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fead7f24_29bbebda",
+        "filename": "sepolicy/mm-qcamerad.te",
+        "patchSetId": 13
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-03-23T14:02:20Z",
+      "side": 1,
+      "message": "This is a global rule (under legacy policies)",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 63
+      },
+      "revId": "c70f18297839785ed724b5e44e2f5396d980d175",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
