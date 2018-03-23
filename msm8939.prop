@@ -1,6 +1,3 @@
-# Art
-ro.sys.fw.dex2oat_thread_count=4
-
 # Display
 ro.opengles.version=196610
 
