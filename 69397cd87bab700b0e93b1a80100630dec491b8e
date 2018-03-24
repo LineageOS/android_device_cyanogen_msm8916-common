@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "122161b7_3f320142",
+        "filename": "config.fs",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2018-03-24T11:48:18Z",
+      "side": 1,
+      "message": "oem_XXXX comes from here",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 10
+      },
+      "revId": "69397cd87bab700b0e93b1a80100630dec491b8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
