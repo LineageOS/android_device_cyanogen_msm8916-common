@@ -45,7 +45,7 @@ static void sysfs_write(char *path, char *s)
     close(fd);
 }
 
-void cm_power_set_interactive_ext(int on)
+void power_set_interactive_ext(int on)
 {
     ALOGD("%sabling big CPU cluster", on ? "En" : "Dis");
     sysfs_write(BIG_MAX_CPU_PATH, on ? "4" : "0");
