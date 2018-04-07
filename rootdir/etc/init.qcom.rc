@@ -70,15 +70,6 @@ on post-fs-data
     mkdir /persist/data/sfs 0700 system system
     mkdir /persist/data/tz 0700 system system
 
-    # Create the directories used by CnE subsystem
-    mkdir /data/connectivity 0771 system system
-    mkdir /data/connectivity/nsrm 0771 system system
-
-    # Create the directories used by DPM subsystem
-    mkdir /data/dpm 0771 system system
-    mkdir /data/dpm/fdMgr 0771 system system
-    mkdir /data/dpm/nsrm 0771 system system
-
     # Create directory used by audio subsystem
     mkdir /data/misc/audio 0770 audio audio
     restorecon_recursive /data/misc/audio
@@ -235,14 +226,6 @@ service rmt_storage /system/vendor/bin/rmt_storage
     group system wakelock
     writepid /dev/cpuset/system-background/tasks
 
-service cnd /system/bin/cnd
-    class late_start
-    socket cnd stream 660 root inet
-
-service dpmd /system/bin/dpmd
-    class main
-    socket dpmd stream 660 root system
-
 service hciattach /vendor/bin/hci_qcomm_init -e
     class late_start
     user bluetooth
@@ -299,11 +282,6 @@ service wpa_supplicant /vendor/bin/hw/wpa_supplicant \
     socket wpa_wlan0 dgram 660 wifi wifi
     disabled
     oneshot
-
-service loc_launcher /system/bin/loc_launcher
-    #loc_launcher will start as root and set its uid to gps
-    class late_start
-    group gps inet net_raw oem_2950 net_admin wifi
 
 service ril-daemon2 /vendor/bin/hw/rild -c 2
     class main
