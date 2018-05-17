@@ -20,7 +20,6 @@ ro.qualcomm.bt.hci_transport=smd
 debug.hwui.use_buffer_age=false
 debug.composition.type=c2d
 debug.mdpcomp.idletime=600
-debug.sf.enable_hwc_vds=1
 persist.hwc.mdpcomp.enable=true
 persist.hwc.ptor.enable=true
 debug.enable.sglscale=1
