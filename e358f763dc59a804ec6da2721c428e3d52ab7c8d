@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e9981ad6_1d3c1c03",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-05-19T15:48:20Z",
+      "side": 1,
+      "message": "Alphabetical order please",
+      "revId": "e358f763dc59a804ec6da2721c428e3d52ab7c8d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
