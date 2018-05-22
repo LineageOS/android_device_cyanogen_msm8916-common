@@ -243,6 +243,9 @@ on property:init.svc.media=restarting
 on property:init.svc.servicemanager=restarting
     restart qcamerasvr
 
+on property:sys.boot_completed=1
+    restart cameraserver
+
 service qseecomd /system/vendor/bin/qseecomd
     class core
     user root
