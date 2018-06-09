@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1785155e_1b52859e",
+        "filename": "sepolicy/file_contexts",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-06-09T22:02:44Z",
+      "side": 1,
+      "message": "Why do you need to label these?",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 108
+      },
+      "revId": "655bf678f1fa1580800217ec4a92c9907e99e242",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
