@@ -4,7 +4,7 @@
 /sys/devices/soc\.0/[a-z0-9]+\.i2c/i2c-[0-9]/[0-9]-[a-z0-9]+/leds(/.*)?   u:object_r:sysfs_leds:s0
 
 # Persist
-/dev/block/platform/soc.0/7824900.sdhci/by-name/persist                   u:object_r:persist_block_device:s0
+/dev/block/platform/soc\.0/7824900\.sdhci/by-name/persist                 u:object_r:persist_block_device:s0
 
 # Shell files
 /system/vendor/bin/init\.qcom\.mem\.sh                                    u:object_r:qti_init_shell_exec:s0
