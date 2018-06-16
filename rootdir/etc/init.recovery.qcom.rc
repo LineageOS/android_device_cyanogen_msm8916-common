@@ -1,0 +1,9 @@
+import init.recovery.power.rc
+import init.recovery.twrp.rc
+
+on fs
+    wait /dev/block/platform/soc.0/${ro.boot.bootdevice}
+    symlink /dev/block/platform/soc.0/${ro.boot.bootdevice} /dev/block/bootdevice
+
+on property:init.svc.recovery=running
+    trigger enable-low-power
