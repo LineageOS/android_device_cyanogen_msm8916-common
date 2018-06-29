@@ -17,7 +17,6 @@ ro.bluetooth.sap=true
 ro.qualcomm.bt.hci_transport=smd
 
 # Display
-debug.hwui.use_buffer_age=false
 debug.composition.type=c2d
 debug.mdpcomp.idletime=600
 persist.hwc.mdpcomp.enable=true

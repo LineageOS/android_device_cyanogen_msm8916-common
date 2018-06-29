@@ -1,4 +1,5 @@
 # Display
+debug.hwui.use_buffer_age=false
 ro.opengles.version=196608
 
 # Perf
