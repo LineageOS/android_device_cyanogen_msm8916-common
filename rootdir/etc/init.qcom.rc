@@ -263,7 +263,7 @@ service msm_irqbalance /system/vendor/bin/msm_irqbalance -f /system/vendor/etc/m
 service netmgrd /system/vendor/bin/netmgrd
     class main
     user root
-    group root wifi wakelock radio inet
+    group root wifi wakelock radio inet oem_2950
     writepid /dev/cpuset/system-background/tasks
 
 # Adjust socket buffer to enlarge TCP receive window for high bandwidth
