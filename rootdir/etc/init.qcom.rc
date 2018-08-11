@@ -239,7 +239,7 @@ service hciattach /system/vendor/bin/init.qcom.bt.sh
     user bluetooth
     group bluetooth net_bt_admin
     disabled
-    seclabel u:r:bluetooth_loader:s0
+    #seclabel u:r:bluetooth_loader:s0
     oneshot
 
 on property:bluetooth.hciattach=true
@@ -298,7 +298,7 @@ service ril-daemon2 /vendor/bin/hw/rild -c 2
 service charger /charger
     class charger
     group log
-    seclabel u:r:charger:s0
+    #seclabel u:r:charger:s0
 
 service hvdcp /system/bin/hvdcp
     class core
