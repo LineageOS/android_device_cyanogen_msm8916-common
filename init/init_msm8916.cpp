@@ -39,9 +39,7 @@
 #include <android-base/properties.h>
 #include <android-base/strings.h>
 
-#include "log.h"
 #include "property_service.h"
-#include "util.h"
 #include "vendor_init.h"
 
 #include "init_msm8916.h"
