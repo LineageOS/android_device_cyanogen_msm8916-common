@@ -10,7 +10,7 @@ vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
 
 # Bluetooth
-qcom.bluetooth.soc=smd
+vendor.qcom.bluetooth.soc=pronto
 ro.bluetooth.dun=true
 ro.bluetooth.hfp.ver=1.7
 ro.bluetooth.sap=true
