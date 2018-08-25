@@ -106,6 +106,9 @@ on post-fs-data
 
     mkdir /data/diag_logs 0777 system system
 
+    # Bluetooth
+    chown bluetooth bluetooth /persist/.bt_nv.bin
+
 on early-boot
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
