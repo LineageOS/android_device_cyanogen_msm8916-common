@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "4b82f15a_e2baff33",
+        "filename": "system.prop",
+        "patchSetId": 8
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2018-08-26T17:05:08Z",
+      "side": 1,
+      "message": "I think this whole line can be safely removed, and everything should still work fine. We needed to set the prop for system/bt in Nougat, but there\u0027s no check for it there since Oreo. And also there\u0027s no check for smd in libbt-vendor, it just fallbacks to default.",
+      "revId": "40433130e3e03cfbc5053aae158ae326c7ab7dbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3be4ab12_afc53567",
         "filename": "system.prop",
         "patchSetId": 8
@@ -13,6 +30,30 @@
       "writtenOn": "2018-08-26T16:37:50Z",
       "side": 1,
       "message": "Is this still needed?",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 32
+      },
+      "revId": "40433130e3e03cfbc5053aae158ae326c7ab7dbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df2f28e1_2378c0ad",
+        "filename": "system.prop",
+        "patchSetId": 8
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2018-08-26T17:05:08Z",
+      "side": 1,
+      "message": "I believe FM depends on it.",
+      "parentUuid": "3be4ab12_afc53567",
       "range": {
         "startLine": 17,
         "startChar": 0,
