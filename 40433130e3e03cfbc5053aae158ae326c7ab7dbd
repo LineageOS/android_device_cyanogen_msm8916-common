@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "6a9a01fd_a6a38a01",
+        "filename": "system.prop",
+        "patchSetId": 8
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2018-08-27T15:17:13Z",
+      "side": 1,
+      "message": "That is, unless we plan to use the entire CAF bluetooth stack, which I doubt since we didn\u0027t in Oreo.",
+      "parentUuid": "1df7c017_2009e635",
+      "revId": "40433130e3e03cfbc5053aae158ae326c7ab7dbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3be4ab12_afc53567",
         "filename": "system.prop",
         "patchSetId": 8
