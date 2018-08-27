@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1abc6bc3_774d61be",
+        "filename": "system.prop",
+        "patchSetId": 8
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2018-08-27T03:04:24Z",
+      "side": 1,
+      "message": "Because it\u0027s a failsafe: https://github.com/msm8916-pie/hardware_qcom_bt/blob/staging/lineage-16.0-caf/tools/btconfig/btconfig.c#L6836\nI\u0027d rather keep it to avoid possible future corruption.",
+      "parentUuid": "4b82f15a_e2baff33",
+      "revId": "40433130e3e03cfbc5053aae158ae326c7ab7dbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3be4ab12_afc53567",
         "filename": "system.prop",
         "patchSetId": 8
