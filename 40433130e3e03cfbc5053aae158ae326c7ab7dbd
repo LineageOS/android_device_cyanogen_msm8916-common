@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "1df7c017_2009e635",
+        "filename": "system.prop",
+        "patchSetId": 8
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2018-08-27T15:12:24Z",
+      "side": 1,
+      "message": "pronto !\u003d smd\n\nAlso, btconfig is new in Pie and most likely for new platforms, so I bet you\u0027re not even building it. Might as well just keep using smd, as it\u0027s a no-op anyways.",
+      "parentUuid": "1abc6bc3_774d61be",
+      "revId": "40433130e3e03cfbc5053aae158ae326c7ab7dbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3be4ab12_afc53567",
         "filename": "system.prop",
         "patchSetId": 8
