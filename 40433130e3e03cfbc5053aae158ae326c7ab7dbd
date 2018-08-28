@@ -73,6 +73,24 @@
     },
     {
       "key": {
+        "uuid": "b6822db8_b2d4b72a",
+        "filename": "system.prop",
+        "patchSetId": 8
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2018-08-28T03:56:16Z",
+      "side": 1,
+      "message": "I actually build it and it works on my device. Pronto is the name of prima WLAN driver, maybe they\u0027re just renaming it. From source code level, setting this prop to pronto or simply removing it results in the same routine.",
+      "parentUuid": "1df7c017_2009e635",
+      "revId": "40433130e3e03cfbc5053aae158ae326c7ab7dbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3be4ab12_afc53567",
         "filename": "system.prop",
         "patchSetId": 8
