@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "922228e3_3a836bb4",
+        "filename": "recovery/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-09-11T13:01:45Z",
+      "side": 1,
+      "message": "This doesn\u0027t seem to be necessary",
+      "range": {
+        "startLine": 4,
+        "startChar": 20,
+        "endLine": 4,
+        "endChar": 53
+      },
+      "revId": "250981526a0ba0e24751e972ec479c04bfe42c80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
