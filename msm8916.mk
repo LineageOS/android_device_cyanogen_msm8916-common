@@ -88,6 +88,10 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
+# For config.fs
+PRODUCT_PACKAGES += \
+    fs_config_files
+
 # GPS
 PRODUCT_PACKAGES += \
     libshims_get_process_name \
