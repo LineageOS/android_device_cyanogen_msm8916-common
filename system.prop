@@ -48,6 +48,3 @@ ro.telephony.call_ring.multiple=false
 
 # Wi-Fi
 wifi.interface=wlan0
-
-# Wi-Fi display
-persist.debug.wfd.enable=1
