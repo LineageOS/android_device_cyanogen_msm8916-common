@@ -31,6 +31,9 @@ debug.enable.sglscale=1
 drm.service.enabled=1
 vidc.enc.narrow.searchrange=1
 
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+
 # Perf
 ro.config.max_starting_bg=8
 ro.vendor.extension_library=libqti-perfd-client.so
