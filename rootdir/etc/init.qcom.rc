@@ -241,14 +241,14 @@ service qseecomd /system/vendor/bin/qseecomd
     group root
     writepid /dev/cpuset/system-background/tasks
 
-service perfd /vendor/bin/perfd
+service perfd /system/vendor/bin/perfd
     class main
     user root
     group root readproc system
     disabled
     writepid /dev/cpuset/system-background/tasks
 
-service thermal-engine /vendor/bin/thermal-engine
+service thermal-engine /system/vendor/bin/thermal-engine
     class main
     user root
     socket thermal-send-client stream 0666 system system
