@@ -148,6 +148,13 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml
 
+# Opengles version
+ifeq ($(TARGET_BOARD_PLATFORM_VARIANT),msm8939)
+PRODUCT_PROPERTY_OVERRIDES += ro.opengles.version=196610
+else
+PRODUCT_PROPERTY_OVERRIDES += ro.opengles.version=196608
+endif
+
 # Permissions
 PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml \

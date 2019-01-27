@@ -127,7 +127,10 @@ TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
 TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
+ifeq ($(TARGET_USES_CUSTOM_PERF),true) # add manualy patch for you system.prop variant to primary tree, if 'true'
+else
 TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/$(TARGET_BOARD_PLATFORM_VARIANT).prop
+endif
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
