@@ -127,7 +127,10 @@ TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
 TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
+ifeq ($(TARGET_USES_CUSTOM_PERF),true) # add manualy ro.min_freq_0=* / ro.min_freq_4=* to your main system.prop if 'true'
+else
 TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/$(TARGET_BOARD_PLATFORM_VARIANT).prop
+endif
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
