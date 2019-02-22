@@ -65,6 +65,8 @@ on enable-low-power
     write /dev/cpuset/camera-daemon/cpus 0-3
     write /dev/cpuset/restricted/cpus 0-3
 
+    setprop vendor.post_boot.parsed 1
+
     rm /data/system/perfd/default_values
     start perfd
 
