@@ -35,6 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.stagefright.ccodec=0 \
     drm.service.enabled=1 \
     vidc.enc.narrow.searchrange=1
 
