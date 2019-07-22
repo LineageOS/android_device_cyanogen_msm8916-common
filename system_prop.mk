@@ -25,12 +25,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.enable.sglscale=1 \
     debug.hwui.use_buffer_age=false \
     debug.composition.type=c2d \
     debug.mdpcomp.idletime=600 \
+    debug.sf.enable_gl_backpressure=1 \
     persist.hwc.mdpcomp.enable=true \
-    persist.hwc.ptor.enable=true \
-    debug.enable.sglscale=1
+    persist.hwc.ptor.enable=true
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
