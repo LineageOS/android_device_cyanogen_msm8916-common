@@ -15,6 +15,9 @@
 # limitations under the License.
 #
 
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_PHONY_TARGETS := true
+
 PLATFORM_PATH := device/cyanogen/msm8916-common
 
 # Platform
