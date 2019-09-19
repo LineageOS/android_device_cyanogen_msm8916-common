@@ -76,4 +76,4 @@ on charger
 
 on property:dev.bootcomplete=1
     trigger enable-low-power
-    setprop sys.io.scheduler bfq
+    setprop sys.io.scheduler cfq
