@@ -33,6 +33,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.mdpcomp.enable=true \
     persist.hwc.ptor.enable=true
 
+# LMKD
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lmk.critical_upgrade=true \
+    ro.lmk.downgrade_pressure=60 \
+    ro.lmk.kill_heaviest_task=false \
+    ro.lmk.log_stats=true \
+    ro.lmk.upgrade_pressure=40 \
+    ro.lmk.use_psi=false
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.omx_default_rank.sw-audio=1 \
