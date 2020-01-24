@@ -1,3 +1,7 @@
+# cgroup
+/dev/cpuset(/.*)?                                                         u:object_r:cgroup:s0
+/dev/stune(/.*)?                                                          u:object_r:cgroup:s0
+
 # Lights
 /sys/devices/soc\.0/gpio-leds\.[a-z0-9]+/leds(/.*)?                       u:object_r:sysfs_leds:s0
 /sys/devices/soc\.0/qcom,camera-led-flash\.[a-z0-9]+/leds(/.*)?           u:object_r:sysfs_leds:s0
