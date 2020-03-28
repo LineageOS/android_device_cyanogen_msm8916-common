@@ -30,6 +30,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.composition.type=c2d \
     debug.mdpcomp.idletime=600 \
     debug.sf.disable_backpressure=1 \
+    debug.sf.latch_unsignaled=1 \
     persist.hwc.mdpcomp.enable=true \
     persist.hwc.ptor.enable=true
 
