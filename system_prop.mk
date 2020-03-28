@@ -29,7 +29,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.hwui.use_buffer_age=false \
     debug.composition.type=c2d \
     debug.mdpcomp.idletime=600 \
-    debug.sf.enable_gl_backpressure=1 \
+    debug.sf.disable_backpressure=1 \
     persist.hwc.mdpcomp.enable=true \
     persist.hwc.ptor.enable=true
 
