@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "467bcc10_6e2bf946",
+        "filename": "init/init_msm8916.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2020-04-27T10:25:56Z",
+      "side": 0,
+      "message": "Is this no longer an issue?",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 59
+      },
+      "revId": "cdfe586b293e00745ab8218a8fa12b00696ef400",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
