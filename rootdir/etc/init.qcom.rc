@@ -273,9 +273,5 @@ service wcnss-service /system/vendor/bin/wcnss_service
     group system wifi radio
     oneshot
 
-service qcom-mem /system/vendor/bin/init.qcom.mem.sh
-    disabled
-    oneshot
-
 on property:apexd.status=ready
     mount none /system/etc/swcodec/ld.config.txt /apex/com.android.media.swcodec/etc/ld.config.txt bind
