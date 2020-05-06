@@ -1,6 +1,4 @@
 on enable-low-power
-    start qcom-mem
-
     write /proc/sys/kernel/sched_boost 1
 
     # RPS mask
