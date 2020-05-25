@@ -66,9 +66,6 @@ on post-fs-data
     mkdir /data/vendor/wifi/wpa 0770 wifi wifi
     mkdir /data/vendor/wifi/wpa/sockets 0770 wifi wifi
 
-    # Create /data/time folder for time-services
-    mkdir /data/time 0700 system system
-
     # Tombstones
     mkdir /data/tombstones/modem 0771 system system
     mkdir /data/tombstones/lpass 0771 system system
@@ -261,12 +258,6 @@ service thermal-engine /system/vendor/bin/thermal-engine
     socket thermal-send-client stream 0666 system system
     socket thermal-recv-client stream 0660 system system
     socket thermal-recv-passive-client stream 0666 system system
-    group root
-    writepid /dev/cpuset/system-background/tasks
-
-service time_daemon /system/vendor/bin/time_daemon
-    class late_start
-    user root
     group root
     writepid /dev/cpuset/system-background/tasks
 
