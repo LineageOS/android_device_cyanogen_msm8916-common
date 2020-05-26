@@ -40,9 +40,15 @@ on fs
     wait /dev/block/platform/soc.0/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc.0/${ro.boot.bootdevice} /dev/block/bootdevice
 
-    mount_all /vendor/etc/fstab.qcom --early
+    mount_all /vendor/etc/fstab.qcom
 
     restorecon_recursive /persist
+
+    # vold needs keymaster that needs qseecomd
+    start vendor.qseecomd
+
+    # Wait qseecomd started
+    wait_for_prop sys.listeners.registered true
 
 on post-fs-data
     # Create folder for mm-qcamera-daemon
@@ -73,18 +79,6 @@ on post-fs-data
     mkdir /data/tombstones/dsps 0771 system system
 
     setprop vold.post_fs_data_done 1
-
-on late-fs
-    # Start services for bootanim
-    start hwservicemanager
-    start servicemanager
-    start surfaceflinger
-    start bootanim
-    start vendor.configstore-hal
-    start vendor.gralloc-2-0
-
-    # Mount RW partitions which need run fsck
-    mount_all /vendor/etc/fstab.qcom --late
 
 on early-boot
     # set RLIMIT_MEMLOCK to 64MB
