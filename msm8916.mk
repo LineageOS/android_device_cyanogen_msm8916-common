@@ -35,8 +35,7 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio.r_submix.default \
     audio.usb.default \
-    libaudio-resampler \
-    tinymix
+    libaudio-resampler
 
 PRODUCT_PACKAGES += \
     audio.primary.msm8916 \
