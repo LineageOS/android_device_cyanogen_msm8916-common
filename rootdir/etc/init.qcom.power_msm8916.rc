@@ -33,6 +33,10 @@ on enable-low-power
     write /sys/devices/system/cpu/cpu1/online 1
     write /sys/devices/system/cpu/cpu2/online 1
     write /sys/devices/system/cpu/cpu3/online 1
+    chmod 664 /sys/devices/system/cpu/cpu0/online
+    chown root system /sys/devices/system/cpu/cpu0/online
+    chmod 664 /sys/devices/system/cpu/cpu1/online
+    chown root system /sys/devices/system/cpu/cpu1/online
 
     # Enable low power modes
     write /sys/module/lpm_levels/parameters/sleep_disabled 0
