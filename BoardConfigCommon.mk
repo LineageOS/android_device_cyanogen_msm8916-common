@@ -81,9 +81,6 @@ TARGET_USES_ION := true
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 
-# Exclude serif fonts for saving system.img size.
-EXCLUDE_SERIF_FONTS := true
-
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(PLATFORM_PATH)/config.fs
 TARGET_USERIMAGES_USE_EXT4 := true
