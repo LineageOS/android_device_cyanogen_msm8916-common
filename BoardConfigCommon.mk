@@ -128,7 +128,9 @@ TARGET_RIL_VARIANT := caf
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_cm
 
 # Releasetools
+ifeq ($(filter wt88047x,$(TARGET_DEVICE)),)
 TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)
+endif
 
 # SELinux
 include device/qcom/sepolicy-legacy/sepolicy.mk
