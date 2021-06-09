@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3ddfbf71_7dd3d062",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2021-06-09T16:24:31Z",
+      "side": 1,
+      "message": "if this is a common repo it should only contain common stuff. this clearly shows it isn\u0027t",
+      "revId": "2c94953ad498743b089e2e670dcdc02b45718377",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
