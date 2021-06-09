@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f7bf99aa_dad4019c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2021-06-09T16:00:10Z",
+      "side": 1,
+      "message": "That second Change-Id doesn\u0027t look right.",
+      "revId": "c800e44a194c5a0207b8f0ff2d34fd674001b7b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
