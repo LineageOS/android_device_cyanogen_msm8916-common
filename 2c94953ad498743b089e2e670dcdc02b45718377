@@ -16,6 +16,24 @@
       "revId": "2c94953ad498743b089e2e670dcdc02b45718377",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eb06eacf_f990d8ee",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2021-06-09T16:34:18Z",
+      "side": 1,
+      "message": "I probably can drop this. I only need to run resize2fs for userdata, which is perfectly fine for all devices in common",
+      "parentUuid": "3ddfbf71_7dd3d062",
+      "revId": "2c94953ad498743b089e2e670dcdc02b45718377",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
