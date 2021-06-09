@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8daef242_7b186b05",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2021-06-09T15:59:25Z",
+      "side": 1,
+      "message": "You probably want this to be msm8916-common",
+      "revId": "c6fb1243890cfa9dd72adfb425b122ad865a7033",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
