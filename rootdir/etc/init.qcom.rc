@@ -245,6 +245,9 @@ service vendor.qcamerasvr /system/vendor/bin/mm-qcamera-daemon
 on property:sys.boot_completed=1
     restart cameraserver
 
+on property:vold.decrypt=trigger_restart_framework
+    restart vendor.camera-provider-2-4
+
 service vendor.qseecomd /system/vendor/bin/qseecomd
     class core
     user root
